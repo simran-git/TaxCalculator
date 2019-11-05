@@ -16,6 +16,9 @@ You can download from - [Download npm] https://nodejs.org/en/
 
 Download the project and on the project directory, you can run :
 
+## `npm install`
+To install all dependencies.
+
 ### `npm start`
 
 This will run the project in development mode <br/>
