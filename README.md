@@ -1,4 +1,4 @@
-##About the project :
+## About the project :
 This project is a web app build that provides user with his/her federal tax amount information based on the annual gross income provided by user. This app uses Federal Tax Rates, 2019 for calculations.
 For more information see 
 [Tax Rates 2019]https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html#federal
@@ -6,7 +6,7 @@ For more information see
 [Gross Annual Income] http://www.businessdictionary.com/definition/gross-annual-income.html 
 
 
-##How to run the project
+## How to run the project
 
 Requirements : 
 
@@ -22,7 +22,7 @@ This will run the project in development mode <br/>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-##Technical Details : 
+## Technical Details : 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Create React App is officially supported way to create single-page React applications. Create React app provides build and packaging using Webpack and testing using Jest.
 Additionally, I have used Enzyme for ReactJS for testing components.

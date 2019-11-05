@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: scroll;
+    border: 1px solid #333;
+  }
+
+ 
+  
+tr:nth-of-type(even) { 
+    background: #d2e879; 
+}
+
+th { 
+    background: #333; 
+    color: #fff; 
+    font-weight: bold; 
+}
+td, th { 
+    padding: 0.5em; 
+    border: 1px solid #b7b7b7; 
+    text-align: left; 
+}
+@media (min-width : 300px) and  (max-width: 650px) {
+    td,th {
+        padding: 0.2em;
+    }
+
+  }
+
+.emphasized-value {
+    font-weight: bold;
+}
+
+#back {
+    margin: 1em;
+}

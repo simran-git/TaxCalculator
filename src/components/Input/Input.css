@@ -1,0 +1,118 @@
+#input-section-container {
+    width : 60%;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+@media (min-width : 300px) and  (max-width: 650px) {
+  #input-section-container {
+    width : 90%;
+  }
+  
+}
+
+#income-input-section {
+  font-weight: 500;
+  padding : 2em;
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : space-evenly ;
+  align-items: center;
+}
+
+@media (min-width : 300px) and  (max-width: 650px) {
+  #income-input-section {
+    padding: 0.5em;
+    justify-content: space-evenly;
+  }
+}
+
+#income-input-section label {
+  width : 50%;
+}
+@media (min-width : 300px) and  (max-width: 650px) {
+  #income-input-section label {
+    width : 50%;
+  }
+}
+.error-label {
+  width: 100%;
+  display: block;
+  margin: 5px;
+  color: red;
+  font-size: 1.2rem;
+  float: right;
+}
+
+#income-input-section input {
+  width : 40%;
+  height : 1.5em;
+  padding : 0.5em;
+  font-size: 1.5rem;
+  outline: none;
+  border : 1px solid #9099A3;
+  border-radius : 0.4rem;
+  color: #111;
+  background-color: #fff;
+}
+
+#income-input-section input:focus {
+  outline: none;
+  border: 2px solid #d2e879;
+}
+@media (min-width : 300px) and  (max-width: 500px) {
+  #income-input-section input {
+    width : 40%;
+  }
+}
+.button {
+  padding: 1em;
+  color: #111;
+  outline: none;
+  border: 1px solid #6dcf43;
+  border-radius: 0.4rem;
+  letter-spacing: 0.04em;
+  background-color: #9af07d;
+}
+.button-big {
+  padding : 1em 2em;
+  font-size: 1.6rem;
+}
+.button:hover {
+  background-color : #6dcf43;
+}
+.button:focus {
+  border: 3px solid  #d2e879;
+  outline: none;
+}
+
+#income-submit-button {
+  margin-top : 2em;
+}
+
+
+
+/*#input-section button {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+} */
+
+.income-input-field::-webkit-inner-spin-button, 
+.income-input-field::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.tax-table-container {
+  width: 100%;
+  max-width: 900px;
+  overflow: scroll;
+}
+
+.button-small {
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+}

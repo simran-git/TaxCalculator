@@ -1,13 +1,54 @@
+@import url('./fonts.css');
+
+html {
+  margin : 0;
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Open Sans", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin : 0;
+  font-size : 1.6rem;
+  line-height: 1.5;
+  color : #212121;
+  background-color: #fafbfa;
+  background-color: rgba(0,0,0,0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto'; 
+}
+
+
+
+h1 {
+  font-size : 3.2rem;
+}
+
+@media (min-width : 300px) and  (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+   p{
+     font-size: 1.6rem;
+   }
+}
+
+label, p, button, table {
+  font-family: Verdana, Geneva, sans-serif
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
