@@ -1,9 +1,9 @@
 ## About the project :
 This project is a web app build that provides user with his/her federal tax amount information based on the annual gross income provided by user. This app uses Federal Tax Rates, 2019 for calculations.
 For more information see 
-[Tax Rates 2019]https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html#federal
+[Tax Rates 2019](https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html#federal)
 
-[Gross Annual Income] http://www.businessdictionary.com/definition/gross-annual-income.html 
+[Gross Annual Income](http://www.businessdictionary.com/definition/gross-annual-income.html) 
 
 
 ## How to run the project
